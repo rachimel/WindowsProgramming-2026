@@ -367,7 +367,7 @@ int main()
 				else
 					std::wcout << std::format(L"영화가 {}에 시작하지 않습니다.\n",inputTime);
 			}
-
+			if (inputTime.size() == 1 && inputTime == L"q") { continue; }
 			movie.PrintSeat(totalInputTime);
 			std::wstring inputCoord{};
 			int SeatX{ 0 }, SeatY{ 0 };
