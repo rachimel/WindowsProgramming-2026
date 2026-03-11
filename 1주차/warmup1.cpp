@@ -25,7 +25,7 @@ public:
 	}
 	Word(const Word& other) : _memory{ other._memory }, _blank{ other._blank }
 	{
-
+		
 	}
 
 	Word& operator= (const Word& other) noexcept
