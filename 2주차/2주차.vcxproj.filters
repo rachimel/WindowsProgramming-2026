@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="framework">
+      <UniqueIdentifier>{e9886517-3c78-49e5-b4b4-8574561c787e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\include">
+      <UniqueIdentifier>{5d726435-6924-4869-a611-ea04d92eceba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\src">
+      <UniqueIdentifier>{5b3755a0-d160-4aec-8425-f972c300740c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{6cf88ab0-6442-43fd-ae52-da573f3c1798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\include\SubModules">
+      <UniqueIdentifier>{09371f7f-1e4b-429c-b2c2-f39800235613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\include\BaseLogic">
+      <UniqueIdentifier>{24962f66-5056-4472-bba3-eca64ea943d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\include\Event">
+      <UniqueIdentifier>{0e93e5ce-55ac-4c5a-9122-e51a31f334de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\include\Event\Stratagies">
+      <UniqueIdentifier>{88421f24-0e0e-49d1-9432-a07579d7bcfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\include\types">
+      <UniqueIdentifier>{4fb9382d-804e-4b3d-a9dd-b2219cd85ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\include\types\traits">
+      <UniqueIdentifier>{03bb1720-8cdd-4a19-87d9-a25125d57898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\include\types\enum">
+      <UniqueIdentifier>{fcea41ee-12d1-4e11-9844-49f7f565c1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\include\types\enum\WinAPI">
+      <UniqueIdentifier>{1b450098-1426-4f4b-b656-bbe35a69bea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\include\Services">
+      <UniqueIdentifier>{136e2ce2-2b9e-4863-b08f-c9dec89895a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\src\SubModules">
+      <UniqueIdentifier>{e16a1cf4-fc12-4b52-bbce-f9ce3f86460c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\include\types\constatnts">
+      <UniqueIdentifier>{b35c259e-4393-4505-a13e-670b57e743d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\include\Services\Manager">
+      <UniqueIdentifier>{2096f1b4-c7fb-423a-bc97-916bef102835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\include\Memory">
+      <UniqueIdentifier>{31004bcc-6c03-4669-a6af-d3e0da2b23dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="Enums.ixx">
+      <Filter>framework\include\types\enum</Filter>
+    </ClCompile>
+    <ClCompile Include="WinAPI.ixx">
+      <Filter>framework\include\types\enum\WinAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.ixx">
+      <Filter>framework\include\SubModules</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedStorage.ixx">
+      <Filter>framework\include\SubModules</Filter>
+    </ClCompile>
+    <ClCompile Include="IService.ixx">
+      <Filter>framework\include\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic.ixx">
+      <Filter>framework\include\BaseLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.ixx">
+      <Filter>framework\include\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>framework\src\SubModules</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedStorage.cpp">
+      <Filter>framework\src\SubModules</Filter>
+    </ClCompile>
+    <ClCompile Include="Constants.ixx">
+      <Filter>framework\include\types\constatnts</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.ixx">
+      <Filter>framework\include\Services\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Traits.ixx">
+      <Filter>framework\include\types\traits</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceTraits.ixx">
+      <Filter>framework\include\types\traits</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomDeleter.ixx">
+      <Filter>framework\include\Memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
